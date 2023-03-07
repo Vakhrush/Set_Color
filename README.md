@@ -3,7 +3,7 @@ Authors: Vakhrushev N., Vakhrusheva A.
 
 Hi!
 
-This addon allows you to create an RGB node or a new material in accordance with the following color tables:
+This addon for Blender3D (2.8 and newer) allows you to create an RGB node or a new material in accordance with the following color tables:
 
 - RAL Classic,
 - RAL Design,
