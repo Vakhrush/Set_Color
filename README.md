@@ -1,5 +1,6 @@
 # Set Color
 Authors: Vakhrushev N., Vakhrusheva A.
+
 Version: 1.0 (3 march 2023)
 
 Hi!
