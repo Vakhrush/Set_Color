@@ -1,7 +1,7 @@
 bl_info = {
     "name": "Set Color",
     "author": "Vakhrushev N., Vakhrusheva A.",
-    "version": (1, 0),
+    "version": (1, 1),
     "blender": (2, 80, 0),
     "location": "Shader Node > Toolshelf",
     "description": "Adds color to your object according to the color tables.",
@@ -2373,6 +2373,7 @@ ncs_dict={'S 0300-N': 0xFFFFFF, 'S 0500-N': 0xFCFCFB, 'S 1000-N': 0xF2F2F0, 'S 1
 #Create a range of values according to the table
 def data_range(ral_data):
     ral_correct_data_in_data_range = {
+        ral_data > 1007 < 1011: 1007,
         ral_data > 1037 < 1518: 1037,
         ral_data > 1518 < 2000: 2000,
         ral_data > 2013 < 2506: 2013,
